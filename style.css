@@ -22,6 +22,7 @@ h1 {
 .half-width {
   width: 50%;
   padding-left: 100px;
+  margin-bottom: 100px;
 }
 
 .half-width img {
@@ -41,4 +42,13 @@ h1 {
   color: rgb(255, 255, 255);
   font-weight: 500;
   text-decoration: none;
+}
+
+#left-padding {
+    padding-left: 5px;
+    padding-right: 100px;
+}
+
+.dream-area {
+    display: flex;
 }
