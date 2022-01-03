@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.orange-text {
+  color: orange;
+}
+
+.top-banner {
+  display: flex;
+  background-image: url('./images/top-banner.png');
+  background-repeat: no-repeat;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 100px;
+}
+
+.half-width img {
+  width: 80%;
+}
+
+.hire-me-btn {
+  background-image: linear-gradient(to right, #ffb347, #ffcc33);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: none;
+}
+
+.hire-me-btn a {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  text-decoration: none;
+}
