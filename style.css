@@ -6,11 +6,15 @@ body {
 }
 
 p {
-    color: rgb(65, 64, 64)
+  color: rgb(65, 64, 64);
 }
 
 h1 {
   font-size: 50px;
+}
+
+h2 {
+  font-size : 40px;
 }
 
 .orange-text {
@@ -58,4 +62,41 @@ h1 {
   background-image: url('./images/dream-bg.png');
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.work-details {
+  display: flex;
+}
+
+.career {
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 5px;
+  height: 70%;
+  background-color: white;
+  margin-left: 5%;
+  padding-left: 2%;
+  margin-bottom: 100px;
+}
+
+#full-stack-career {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightSalmon, #fb6856);
+  border-image-slice: 1;
+}
+
+#baby-career {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+.experience {
+  background-image: url('./images/exp-bg.png');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
 }
