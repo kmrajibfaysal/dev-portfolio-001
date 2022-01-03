@@ -5,6 +5,10 @@ body {
   margin: 0;
 }
 
+p {
+    color: rgb(65, 64, 64)
+}
+
 h1 {
   font-size: 50px;
 }
@@ -45,10 +49,13 @@ h1 {
 }
 
 #left-padding {
-    padding-left: 5px;
-    padding-right: 100px;
+  padding-left: 5px;
+  padding-right: 100px;
 }
 
 .dream-area {
-    display: flex;
+  display: flex;
+  background-image: url('./images/dream-bg.png');
+  background-repeat: no-repeat;
+  background-position: right;
 }
